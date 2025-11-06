@@ -117,7 +117,55 @@
             <table>
                 <caption>Programação de Palestras e Oficinas do FUTC 2025</caption>
 
-                <thead></thead>
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Trilha</th>
+                        <th>Palestra / Oficina</th>
+                        <th>Palestrante</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">09:00 - 10:30</td>
+                        <td>Tecnologia</td>
+                        <td>Inteligência Artificial no Cotidiano</td>
+                        <td>Profa. Jennie Hoffmann</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cultura</td>
+                        <td>Arte Digital e Realidade Aumentada</td>
+                        <td>Prof. Damon Salvatore</td>
+                    </tr>
+
+                    <tr>
+                        <td>11:00 - 12:30</td>
+                        <td>Inovação</td>
+                        <td colspan="2">Painel conjunto: Criatividade e Sustentabilidade</td>
+                    </tr>
+
+                    <tr>
+                        <td>14:00 - 15:30</td>
+                        <td>Empreendedorismo</td>
+                        <td>Startups Universitárias</td>
+                        <td>Equipe do LabTech</td>
+                    </tr>
+
+                    <tr>
+                        <td>16:00 - 17:30</td>
+                        <td>Robótica</td>
+                        <td>Desafio Maker: construindo um robô autônomo</td>
+                        <td>Profa. Katherine Pierce</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Total de Sessões: 5</td>
+                    </tr>
+                </tfoot>
             </table>
         </section>
 
@@ -153,7 +201,7 @@
 
         <section>
             <h2>Vídeo Institucional</h2>
-            <video src="midias/video_institucional.mp4" controls>
+            <video src="midias/video_institucionalXYZ.mp4" controls width="768">
                 Seu navegador não suporta o elemento vídeo <code>video</code>
             </video>
         </section>
@@ -162,6 +210,34 @@
             <h2>Canvas de Artes</h2>
             <canvas>Conteúdo alternativo: imagem ilustrativa do festival</canvas>
         </section>
+
+        <section>
+            <h2>Multimídia e Incorporação</h2>
+
+            <h3>Trailer do Festival</h3>
+            <video controls width="768">
+                <source src="midias/trailer_festival.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento vídeo <code>video</code>.
+            </video>
+
+            <h3>Teaser em Áudio</h3>
+            <audio controls>
+                <source src="midias/teaser.mp3" type="audio/mp3">
+                Seu navegador não suporta o elemento áudio <code>audio</code>.
+                <p>Você pode <a href="midias/teaser.mp3">baixar o áudio aqui.</a></p>
+            </audio>
+
+            <h3>Mapa do Festival</h3>
+            <iframe src="iframe/mapa.html" title="Mapa do evento" width="480" height="320" loading="lazy">
+            </iframe>
+
+            <h3>Regulamento em PDF</h3>
+            <object data="midias/Regulamento_Festival.pdf" type="application/pdf" width="480" height="320">
+                <p>Seu navegador não consegue exibir o PDF.
+                <a href="midias/Regulamento_Festival.pdf">Clique aqui para baixar o arquivo.</a></p>
+            </object>
+        </section>
+
    </main>
 
    <footer>
